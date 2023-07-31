@@ -1,0 +1,285 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Baburao",
+    "phone_number": "89908098908",
+    "address": "Shaitan Gali Shamshan ke Piche",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Marathi",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 11 Feb 2023 14:13:29 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "709e8bb3530bdca925ee4f1d2a8b7c99",
+    "scope": "APP",
+    "reference": "8d5a8a1dfa602b36a1afeaf10248dcf98d5a8a1dfa602b36a1afeaf10248dcf9",
+    "id": "8d5a8a1dfa602b36a1afeaf10248dcf9"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=709e8bb3530bdca925ee4f1d2a8b7c99
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=709e8bb3530bdca925ee4f1d2a8b7c99
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 11 Feb 2023 14:13:31 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 258
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Baburao",
+    "phone_number": "89908098908",
+    "address": "Shaitan Gali Shamshan ke Piche",
+    "types": "shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Marathi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Raju",
+    "phone_number": "89908098908",
+    "address": "Takla Makaan",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Hindi",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 11 Feb 2023 14:13:31 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "91d15da85603d5cf92d03e73df6fda7f",
+    "scope": "APP",
+    "reference": "ff6f5ccada0a0944e1982b0473f6e72aff6f5ccada0a0944e1982b0473f6e72a",
+    "id": "ff6f5ccada0a0944e1982b0473f6e72a"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=91d15da85603d5cf92d03e73df6fda7f
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=91d15da85603d5cf92d03e73df6fda7f
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 11 Feb 2023 14:13:31 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 235
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Raju",
+    "phone_number": "89908098908",
+    "address": "Takla Makaan",
+    "types": "shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Hindi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Shyam",
+    "phone_number": "89908098908",
+    "address": "Karakorm-Timbuktu",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Odia",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 11 Feb 2023 14:13:32 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "e612ddd15637221fdecb70ed4e84d376",
+    "scope": "APP",
+    "reference": "76800a586aa59060f287d6e928640b5076800a586aa59060f287d6e928640b50",
+    "id": "76800a586aa59060f287d6e928640b50"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e612ddd15637221fdecb70ed4e84d376
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=e612ddd15637221fdecb70ed4e84d376
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 11 Feb 2023 14:13:32 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 240
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Shyam",
+    "phone_number": "89908098908",
+    "address": "Karakorm-Timbuktu",
+    "types": "shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "Odia"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "e612ddd15637221fdecb70ed4e84d376"
+}
+HTTP/1.1 200 OK
+Date: Sat, 11 Feb 2023 14:13:33 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
